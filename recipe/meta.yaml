@@ -8,8 +8,6 @@ package:
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/yandex_query_client-{{ version }}.tar.gz
   sha256: f72268690869c1a24421231c534f8ed747bf1da96f7b74f66a5790bd267d128f
-  patches:
-    - 0001-remove-typing.patch
 
 build:
   noarch: python
