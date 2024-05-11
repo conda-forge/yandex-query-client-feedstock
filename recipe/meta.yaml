@@ -1,5 +1,5 @@
 {% set name = "yandex-query-client" %}
-{% set version = "0.1.3" %}
+{% set version = "0.1.4" %}
 
 package:
   name: {{ name|lower }}
@@ -7,9 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/yandex_query_client-{{ version }}.tar.gz
-  sha256: 742f1d08da817353846ec92debda68f180be837eb624f9c833a2158f4b7b6c3c
-  patches:
-    - 0001-remove-typing.patch
+  sha256: f72268690869c1a24421231c534f8ed747bf1da96f7b74f66a5790bd267d128f
 
 build:
   noarch: python
